@@ -1,8 +1,8 @@
 "use strict";
 const periferico = {
-    descricao: "Teclado Logitech MX Keys",
-    categorias: ["informática", "periféricos", "teclado"],
-    valor: 600
+    "descricao": "Teclado Logitech MX Keys",
+    "categorias": ["informática", "periféricos", "teclado"],
+    "valor": 600
 };
 const perifericos = [
     periferico,

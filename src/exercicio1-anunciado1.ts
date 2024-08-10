@@ -6,9 +6,9 @@ interface Pefiferico {
 }
 
 const periferico: Pefiferico = {
-    descricao: "Teclado Logitech MX Keys",
-    categorias: ["informática", "periféricos", "teclado"],
-    valor: 600
+    "descricao": "Teclado Logitech MX Keys",
+    "categorias": ["informática", "periféricos", "teclado"],
+    "valor": 600
 } 
 
 const perifericos: Array<Pefiferico> = [
