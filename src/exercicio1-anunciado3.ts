@@ -21,7 +21,7 @@ interface Serie {
     "episodios": Array<Episodio>;
 }
 
-const series: Serie = {
+const serie: Serie = {
     "id": 1,
         "titulo": "House of Dragons",
             "episodios": [
@@ -71,3 +71,11 @@ const series: Serie = {
                 }
             ]
 }
+
+serie.episodios.forEach(episodio => {
+    episodio.personagens.forEach(personagem => {
+        const { ator } = personagem;
+        const { nome } = ator;
+        console.log(nome);
+    })
+}) 

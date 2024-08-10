@@ -1,5 +1,5 @@
 "use strict";
-const series = {
+const serie = {
     "id": 1,
     "titulo": "House of Dragons",
     "episodios": [
@@ -49,3 +49,10 @@ const series = {
         }
     ]
 };
+serie.episodios.forEach(episodio => {
+    episodio.personagens.forEach(personagem => {
+        const { ator } = personagem;
+        const { nome } = ator;
+        console.log(nome);
+    });
+});
