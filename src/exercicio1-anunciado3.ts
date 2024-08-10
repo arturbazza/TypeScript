@@ -3,24 +3,25 @@ interface Ator {
     "nome": string,
 }
 
-interface Personagens {
+interface Personagen {
     "id": number,
     "nome": string,
+    "ator": Ator,
 }
 
-interface Episodios {
+interface Episodio {
     "id": number,
-    "nome": string,
-    "ator": Array<Personagens>;
+    "titulo": string,
+    "personagens": Array<Personagen>;
 }
 
 interface Serie {
     "id": number,
     "titulo": string,
-    "episodios": Array<Episodios>;
+    "episodios": Array<Episodio>;
 }
 
-const series = {
+const series: Serie = {
     "id": 1,
         "titulo": "House of Dragons",
             "episodios": [
